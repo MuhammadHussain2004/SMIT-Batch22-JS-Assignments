@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Run assignment question</title>
+</head>
+<body>
+  <h1>Assignment question runner</h1>
+  <p>Answer the prompts; the result will appear below.</p>
+  <script>
+    var questionNumber = location.search.substring(1);
+    if (/^\d{2}$/.test(questionNumber)) {
+      document.write('<script src="question-' + questionNumber + '.js"><\/script>');
+    } else {
+      document.write('<p>Invalid question number. Return to <a href="index.html">the assignment index</a>.</p>');
+    }
+  </script>
+</body>
+</html>
