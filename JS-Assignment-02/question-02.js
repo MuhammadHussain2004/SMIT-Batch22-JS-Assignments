@@ -9,4 +9,3 @@ if (numberInput === null || numberInput.trim() === "" || isNaN(number) || number
     document.write(number + " is an odd number." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

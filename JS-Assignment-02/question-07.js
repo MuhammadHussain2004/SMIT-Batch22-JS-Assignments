@@ -22,4 +22,3 @@ if (purchaseInput === null || purchaseInput.trim() === "" || isNaN(purchaseAmoun
     document.write("Final Amount: Rs. " + finalAmount + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

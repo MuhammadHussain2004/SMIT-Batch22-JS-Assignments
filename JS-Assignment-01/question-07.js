@@ -16,4 +16,3 @@ document.write("C: " + C + "<br>");
 document.write("D: " + D + "<br>");
 document.write("E: " + E + "<br>");
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

@@ -12,4 +12,3 @@ var letValue;
 document.write("Valid identifiers: studentName, _totalMarks, $price, userAge, total_amount" + "<br>");
 document.write("Corrected invalid identifiers: firstStudent, myName, className, firstName, letValue" + "<br>");
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

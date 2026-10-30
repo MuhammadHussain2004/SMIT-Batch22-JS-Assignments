@@ -44,4 +44,3 @@ if (englishInput === null || mathematicsInput === null || scienceInput === null 
     }
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

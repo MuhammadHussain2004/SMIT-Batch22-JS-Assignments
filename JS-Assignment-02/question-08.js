@@ -13,4 +13,3 @@ if (yearInput === null || yearInput.trim() === "" || isNaN(year) || year % 1 !==
     document.write(year + " is not a Leap Year." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

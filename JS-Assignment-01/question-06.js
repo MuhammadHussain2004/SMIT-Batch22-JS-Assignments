@@ -10,4 +10,3 @@ document.write("Total Bill: Rs. " + totalBill + "<br>");
 document.write("Discount: Rs. " + discountAmount + "<br>");
 document.write("Final Bill: Rs. " + finalBill + "<br>");
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

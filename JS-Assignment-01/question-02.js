@@ -7,4 +7,3 @@ document.write("Favorite programming language: " + favoriteProgrammingLanguage +
 document.write("Current learning topic: " + currentLearningTopic + "<br>");
 document.write("Batch number: " + batchNumber + "<br>");
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

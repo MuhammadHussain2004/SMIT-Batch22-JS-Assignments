@@ -20,4 +20,3 @@ if (firstInput === null || secondInput === null || thirdInput === null || firstI
     document.write(largestNumber + " is the largest number." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

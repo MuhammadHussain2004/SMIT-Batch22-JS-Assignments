@@ -17,4 +17,3 @@ if (percentageInput === null || percentageInput.trim() === "" || isNaN(percentag
     document.write("Your Grade is Fail." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

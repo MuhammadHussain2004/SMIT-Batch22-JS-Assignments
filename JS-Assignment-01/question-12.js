@@ -13,4 +13,3 @@ document.write("Gross Salary: Rs. " + grossSalary + "<br>");
 document.write("Tax Deduction: Rs. " + taxDeduction + "<br>");
 document.write("Net Salary: Rs. " + netSalary + "<br>");
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

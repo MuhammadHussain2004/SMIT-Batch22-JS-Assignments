@@ -13,4 +13,3 @@ if (ageInput === null || experienceInput === null || ageInput.trim() === "" || e
     document.write("Sorry! You do not meet the requirements." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

@@ -15,4 +15,3 @@ if (signalColor !== null) {
     document.write("Invalid Signal" + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

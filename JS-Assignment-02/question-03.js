@@ -9,4 +9,3 @@ if (ageInput === null || ageInput.trim() === "" || isNaN(age) || age < 0) {
     document.write("You are not eligible to vote." + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');

@@ -24,4 +24,3 @@ if (unitsInput === null || unitsInput.trim() === "" || isNaN(unitsConsumed) || u
     document.write("Total Bill: Rs. " + totalBill + "<br>");
 }
 
-document.write('<p><a href="index.html">Back to questions</a></p>');
