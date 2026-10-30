@@ -13,7 +13,7 @@ Solutions for `question-01.js` through `question-15.js` are included; review and
 
 ## Run your work
 
-Open `index.html` and click a question, answer its prompts, and read the result on the page. Questions that require user input use `prompt()`.
+Open `index.html` in a browser. It loads `question-01.js` by default. To run another question, change the number in the `<script src="question-01.js"></script>` line. Answers to prompts and output appear on the page.
 
 ## Output screenshots
 
