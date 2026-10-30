@@ -9,11 +9,11 @@
 
 ## Questions
 
-Solutions for `question-01.js` through `question-15.js` are included; review and understand each one before submission. Follow the PDF restrictions: no loops, arrays, functions, or objects; validate input before calculations.
+Each question has its own folder with an `index.html` and JavaScript solution. Follow the PDF restrictions: no loops, arrays, functions, or objects; validate input before calculations.
 
 ## Run your work
 
-Open `index.html` in a browser. To run a different question, change the number in the `<script src="question-01.js"></script>` line at the bottom of the file.
+Open `index.html` and click a question. Its folder page loads that question JavaScript and displays the output.
 
 ## Output screenshots
 
