@@ -21,4 +21,4 @@ Open `index.html` for the question list. Click a question in `index.html`, answe
 
 ## Submission
 
-Add your public GitHub repository link here after you have pushed your completed work.
+Public GitHub repository: https://github.com/MuhammadHussain2004/SMIT-Batch22-JS-Assignments
