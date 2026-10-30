@@ -8,7 +8,7 @@
 
 ## Run my work
 
-Open `index.html` and click a question. Its folder page loads that question JavaScript and displays the output.
+Open the parent `index.html` of Assignment no.1 and click a question. Its folder page loads that question JavaScript and displays the output.
 
 
 ## Submission
