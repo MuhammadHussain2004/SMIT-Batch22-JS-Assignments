@@ -9,3 +9,5 @@ if (username === "admin" && password === "admin123") {
 } else {
     document.write("Invalid Password." + "<br>");
 }
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

@@ -5,3 +5,5 @@ var city = prompt("Enter your city:");
 
 document.write("Welcome " + firstName + " " + lastName + "!" + "<br>");
 document.write("You are from " + city + "." + "<br>");
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

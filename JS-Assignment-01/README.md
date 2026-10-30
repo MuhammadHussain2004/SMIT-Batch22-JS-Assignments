@@ -13,7 +13,7 @@ Solutions for `question-01.js` through `question-12.js` are included; review and
 
 ## Run your work
 
-Open `index.html` in a browser. It loads `question-01.js` by default. To run another question, change the number in the `<script src="question-01.js"></script>` line. Answers to prompts and output appear on the page.
+Open `index.html` in a browser, click a question, and its output will appear on the page. Use Back to questions to return to the list.
 
 ## Output screenshots
 

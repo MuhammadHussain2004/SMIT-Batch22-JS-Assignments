@@ -17,3 +17,5 @@ if (pin !== "1234") {
     document.write("Withdrawn Amount: Rs. " + withdrawalAmount + "<br>");
     document.write("Remaining Balance: Rs. " + balance + "<br>");
 }
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

@@ -4,3 +4,5 @@ var currentYear = 2026;
 var approximateAge = currentYear - birthYear;
 
 document.write("Your approximate age is " + approximateAge + " years." + "<br>");
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

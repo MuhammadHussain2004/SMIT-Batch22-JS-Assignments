@@ -10,3 +10,5 @@ if (numberInput === null || numberInput.trim() === "" || isNaN(number)) {
 } else {
     document.write("The number is zero." + "<br>");
 }
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

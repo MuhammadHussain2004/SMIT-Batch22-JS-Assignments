@@ -11,3 +11,5 @@ var percentage = obtainedMarks / totalMarks * 100;
 document.write("Obtained Marks: " + obtainedMarks + "<br>");
 document.write("Total Marks: " + totalMarks + "<br>");
 document.write("Percentage: " + percentage + "%" + "<br>");
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

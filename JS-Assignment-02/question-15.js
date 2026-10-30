@@ -31,3 +31,5 @@ if (basicSalaryInput === null || yearsOfServiceInput === null || basicSalaryInpu
     document.write("Tax: Rs. " + tax + "<br>");
     document.write("Final Salary: Rs. " + finalSalary + "<br>");
 }
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

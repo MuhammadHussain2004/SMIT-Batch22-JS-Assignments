@@ -10,3 +10,5 @@ document.write("I am " + age + " years old." + "<br>");
 document.write("I live in " + city + "." + "<br>");
 document.write("I am learning " + courseName + "." + "<br>");
 document.write("My institute is " + instituteName + "." + "<br>");
+
+document.write('<p><a href="index.html">Back to questions</a></p>');

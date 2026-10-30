@@ -10,3 +10,5 @@ document.write("Number: " + typeof numberValue + "<br>");
 document.write("Boolean: " + typeof booleanValue + "<br>");
 document.write("Undefined: " + typeof undefinedValue + "<br>");
 document.write("Null: " + typeof nullValue + "<br>"); // JavaScript reports typeof null as "object".
+
+document.write('<p><a href="index.html">Back to questions</a></p>');
