@@ -1,6 +1,6 @@
 # JavaScript Assignment 02
 
-- **Student name:** Muhammad Hussain
+- **Student name:** Muhammad Hussain Khan Lodhi
 - **Student ID:** 829336
 - **Batch:** SMIT Batch 22
 - **Course:** Web & Mobile App Development
