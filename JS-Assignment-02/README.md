@@ -13,7 +13,7 @@ Solutions for `question-01.js` through `question-15.js` are included; review and
 
 ## Run your work
 
-Open `index.html` for the question list. Click a question in `index.html`, answer its prompts, and read the result on the page. Questions that require user input use `prompt()`.
+Open `index.html` and click a question, answer its prompts, and read the result on the page. Questions that require user input use `prompt()`.
 
 ## Output screenshots
 

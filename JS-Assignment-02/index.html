@@ -8,24 +8,30 @@
 <body>
   <h1>JavaScript Assignment 02: Conditions & Logical Operators</h1>
   <p>SMIT Batch 22 - Web &amp; Mobile App Development</p>
-  <p>Starter files are provided for independent completion. Select a question to run its program. Select a question to run it, answer its prompts, and read the result on the page.</p>
+  <p>Choose a question below. Its JavaScript file runs on this page, and its output appears here.</p>
   <ol>
-<li><a href="run.html?01">Question 01</a> - Positive, Negative or Zero: prompt for a number and report its sign or zero.</li>
-<li><a href="run.html?02">Question 02</a> - Even or Odd: prompt for an integer and determine parity with modulus.</li>
-<li><a href="run.html?03">Question 03</a> - Voting Eligibility: prompt for age; reject negative age and report eligibility at 18 or above.</li>
-<li><a href="run.html?04">Question 04</a> - Largest Number: prompt for three numbers and display the maximum, including ties.</li>
-<li><a href="run.html?05">Question 05</a> - Login Authentication: check prompted credentials against admin / admin123 and report the appropriate result.</li>
-<li><a href="run.html?06">Question 06</a> - Student Grade Calculator: validate a percentage from 0 to 100 and assign the specified grade.</li>
-<li><a href="run.html?07">Question 07</a> - Discount Eligibility: reject negative purchase amount; calculate discount tier, discount amount, and final payable amount.</li>
-<li><a href="run.html?08">Question 08</a> - Leap Year Checker: prompt for year and apply the divisibility rules in the PDF.</li>
-<li><a href="run.html?09">Question 09</a> - Job Eligibility Checker: validate age and experience; check age 18?30, at least one year experience, and JavaScript knowledge.</li>
-<li><a href="run.html?10">Question 10</a> - ATM Withdrawal System: validate PIN, positive amount, balance, and Rs. 500 multiple; update/display balance when successful.</li>
-<li><a href="run.html?11">Question 11</a> - Electricity Bill Calculator: validate units; apply one rate for the full consumption bracket, Rs. 150 service charge, and 5% tax on electricity charges.</li>
-<li><a href="run.html?12">Question 12</a> - Student Result System: prompt for five subject marks, validate each, calculate total and percentage, apply the grade bands, and fail if any subject is below 40.</li>
-<li><a href="run.html?13">Question 13</a> - Traffic Signal System: accept upper- or lowercase red/yellow/green and display the matching instruction or invalid signal.</li>
-<li><a href="run.html?14">Question 14</a> - Cinema Ticket Booking: validate age; choose the age-based ticket price and add the weekend surcharge only to paid tickets.</li>
-<li><a href="run.html?15">Question 15</a> - Employee Salary & Bonus: validate salary and service years; calculate service bonus, basic-salary tax, and final salary.</li>
+<li><a href="index.html?01">Question 01</a> - Positive, Negative or Zero: prompt for a number and report its sign or zero.</li>
+<li><a href="index.html?02">Question 02</a> - Even or Odd: prompt for an integer and determine parity with modulus.</li>
+<li><a href="index.html?03">Question 03</a> - Voting Eligibility: prompt for age; reject negative age and report eligibility at 18 or above.</li>
+<li><a href="index.html?04">Question 04</a> - Largest Number: prompt for three numbers and display the maximum, including ties.</li>
+<li><a href="index.html?05">Question 05</a> - Login Authentication: check prompted credentials against admin / admin123 and report the appropriate result.</li>
+<li><a href="index.html?06">Question 06</a> - Student Grade Calculator: validate a percentage from 0 to 100 and assign the specified grade.</li>
+<li><a href="index.html?07">Question 07</a> - Discount Eligibility: reject negative purchase amount; calculate discount tier, discount amount, and final payable amount.</li>
+<li><a href="index.html?08">Question 08</a> - Leap Year Checker: prompt for year and apply the divisibility rules in the PDF.</li>
+<li><a href="index.html?09">Question 09</a> - Job Eligibility Checker: validate age and experience; check age 18?30, at least one year experience, and JavaScript knowledge.</li>
+<li><a href="index.html?10">Question 10</a> - ATM Withdrawal System: validate PIN, positive amount, balance, and Rs. 500 multiple; update/display balance when successful.</li>
+<li><a href="index.html?11">Question 11</a> - Electricity Bill Calculator: validate units; apply one rate for the full consumption bracket, Rs. 150 service charge, and 5% tax on electricity charges.</li>
+<li><a href="index.html?12">Question 12</a> - Student Result System: prompt for five subject marks, validate each, calculate total and percentage, apply the grade bands, and fail if any subject is below 40.</li>
+<li><a href="index.html?13">Question 13</a> - Traffic Signal System: accept upper- or lowercase red/yellow/green and display the matching instruction or invalid signal.</li>
+<li><a href="index.html?14">Question 14</a> - Cinema Ticket Booking: validate age; choose the age-based ticket price and add the weekend surcharge only to paid tickets.</li>
+<li><a href="index.html?15">Question 15</a> - Employee Salary & Bonus: validate salary and service years; calculate service bonus, basic-salary tax, and final salary.</li>
   </ol>
   <p>See <a href="README.md">README.md</a> for submission details.</p>
+  <script>
+    var questionNumber = location.search.substring(1);
+    if (/^\d{2}$/.test(questionNumber)) {
+      document.write('<script src="question-' + questionNumber + '.js"><\/script>');
+    }
+  </script>
 </body>
 </html>

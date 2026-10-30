@@ -1,6 +1,6 @@
 // Question 1: Personal Information
-var fullName = "Ahmed";
-var age = 19;
+var fullName = "Muhammad Hussain Khan Lodhi";
+var age = 22;
 var city = "Karachi";
 var courseName = "Web & Mobile App Development";
 var instituteName = "SMIT";

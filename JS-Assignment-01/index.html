@@ -8,21 +8,27 @@
 <body>
   <h1>JavaScript Assignment 01: Fundamentals & Basic Problem Solving</h1>
   <p>SMIT Batch 22 - Web &amp; Mobile App Development</p>
-  <p>Starter files are provided for independent completion. Select a question to run its program. Select a question to run it, answer its prompts, and read the result on the page.</p>
+  <p>Choose a question below. Its JavaScript file runs on this page, and its output appears here.</p>
   <ol>
-<li><a href="run.html?01">Question 01</a> - Personal Information: store full name, age, city, course, and institute; display a formatted introduction.</li>
-<li><a href="run.html?02">Question 02</a> - Variable Declaration: use var, let, and const for favorite programming language, current learning topic, and batch number; log the values.</li>
-<li><a href="run.html?03">Question 03</a> - Data Types: create String, Number, Boolean, Undefined, and Null values; display each value's typeof result.</li>
-<li><a href="run.html?04">Question 04</a> - Legal and Illegal Variables: identify valid and invalid names from the PDF, explain invalid names, and correct them.</li>
-<li><a href="run.html?05">Question 05</a> - Basic Calculator: prompt for two numbers; display addition, subtraction, multiplication, division, and modulus.</li>
-<li><a href="run.html?06">Question 06</a> - Shopping Bill: prompt for three product prices; display total, 10% discount, and final bill.</li>
-<li><a href="run.html?07">Question 07</a> - Mathematical Expression: evaluate A through E from the PDF, display each, and comment on operation order.</li>
-<li><a href="run.html?08">Question 08</a> - Welcome Message: prompt for first name, last name, and city; display a concatenated welcome message.</li>
-<li><a href="run.html?09">Question 09</a> - Age Calculator: prompt for birth year and calculate approximate age using the current year.</li>
-<li><a href="run.html?10">Question 10</a> - Marks Percentage Calculator: prompt for five subject marks; display obtained marks, maximum marks, and percentage.</li>
-<li><a href="run.html?11">Question 11</a> - Currency Converter: prompt for PKR and convert to USD using 1 USD = 280 PKR.</li>
-<li><a href="run.html?12">Question 12</a> - Salary Calculator: prompt for basic salary; calculate 20% house allowance, 10% medical allowance, 5% tax, gross salary, and net salary.</li>
+<li><a href="index.html?01">Question 01</a> - Personal Information: store full name, age, city, course, and institute; display a formatted introduction.</li>
+<li><a href="index.html?02">Question 02</a> - Variable Declaration: use var, let, and const for favorite programming language, current learning topic, and batch number; log the values.</li>
+<li><a href="index.html?03">Question 03</a> - Data Types: create String, Number, Boolean, Undefined, and Null values; display each value's typeof result.</li>
+<li><a href="index.html?04">Question 04</a> - Legal and Illegal Variables: identify valid and invalid names from the PDF, explain invalid names, and correct them.</li>
+<li><a href="index.html?05">Question 05</a> - Basic Calculator: prompt for two numbers; display addition, subtraction, multiplication, division, and modulus.</li>
+<li><a href="index.html?06">Question 06</a> - Shopping Bill: prompt for three product prices; display total, 10% discount, and final bill.</li>
+<li><a href="index.html?07">Question 07</a> - Mathematical Expression: evaluate A through E from the PDF, display each, and comment on operation order.</li>
+<li><a href="index.html?08">Question 08</a> - Welcome Message: prompt for first name, last name, and city; display a concatenated welcome message.</li>
+<li><a href="index.html?09">Question 09</a> - Age Calculator: prompt for birth year and calculate approximate age using the current year.</li>
+<li><a href="index.html?10">Question 10</a> - Marks Percentage Calculator: prompt for five subject marks; display obtained marks, maximum marks, and percentage.</li>
+<li><a href="index.html?11">Question 11</a> - Currency Converter: prompt for PKR and convert to USD using 1 USD = 280 PKR.</li>
+<li><a href="index.html?12">Question 12</a> - Salary Calculator: prompt for basic salary; calculate 20% house allowance, 10% medical allowance, 5% tax, gross salary, and net salary.</li>
   </ol>
   <p>See <a href="README.md">README.md</a> for submission details.</p>
+  <script>
+    var questionNumber = location.search.substring(1);
+    if (/^\d{2}$/.test(questionNumber)) {
+      document.write('<script src="question-' + questionNumber + '.js"><\/script>');
+    }
+  </script>
 </body>
 </html>
