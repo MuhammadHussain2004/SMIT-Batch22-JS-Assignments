@@ -1,9 +1,6 @@
 // Question 1: Positive, Negative or Zero
-var numberInput = prompt("Enter a number:");
-var number = Number(numberInput);
-if (numberInput === null || numberInput.trim() === "" || isNaN(number)) {
-    document.write("Invalid number." + "<br>");
-} else if (number > 0) {
+var number = Number(prompt("Enter a number:"));
+if (number > 0) {
     document.write(number + " is a positive number." + "<br>");
 } else if (number < 0) {
     document.write(number + " is a negative number." + "<br>");
@@ -11,3 +8,4 @@ if (numberInput === null || numberInput.trim() === "" || isNaN(number)) {
     document.write("The number is zero." + "<br>");
 }
 
+111

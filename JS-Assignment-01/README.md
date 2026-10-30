@@ -1,23 +1,15 @@
 # JavaScript Assignment 01
 
-- **Student name:** Muhammad Hussain
-- **Batch:** SMIT Batch 22
-- **Course:** Web & Mobile App Development
-- **Topics:** JavaScript fundamentals, variables, data types, expressions, operators, prompts, and strings
+- **Student name:** Muhammad Hussain Khan Lodhi
+- **Student ID:** 829336
+- **Batch:** SMIT Batch 22-23
+- **Course:** Modern Web Application Development
 
-- **AI assistance:** These solutions were drafted with AI.
 
-## Questions
-
-Each question has its own folder with an `index.html` and JavaScript solution. Follow the PDF restrictions: no loops, arrays, functions, or conditional statements.
-
-## Run your work
+## Run my work
 
 Open `index.html` and click a question. Its folder page loads that question JavaScript and displays the output.
 
-## Output screenshots
-
-3 sample output screenshots are included in [`screenshots/`](screenshots/). They use the sample inputs shown in the assignment PDF.
 
 ## Submission
 

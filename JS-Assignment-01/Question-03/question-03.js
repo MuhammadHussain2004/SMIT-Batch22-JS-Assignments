@@ -5,9 +5,9 @@ var booleanValue = true;
 var undefinedValue;
 var nullValue = null;
 
-document.write("String: " + typeof stringValue + "<br>");
-document.write("Number: " + typeof numberValue + "<br>");
-document.write("Boolean: " + typeof booleanValue + "<br>");
-document.write("Undefined: " + typeof undefinedValue + "<br>");
-document.write("Null: " + typeof nullValue + "<br>"); // JavaScript reports typeof null as "object".
+document.write(stringValue + ' : '+ typeof stringValue  + "<br>");
+document.write(numberValue + ' : ' + typeof numberValue + "<br>");
+document.write(booleanValue+ ' : ' + typeof booleanValue + "<br>");
+document.write(undefinedValue + ' : ' + typeof undefinedValue + "<br>");
+document.write(nullValue + ' : ' + typeof nullValue + "<br>");
 
