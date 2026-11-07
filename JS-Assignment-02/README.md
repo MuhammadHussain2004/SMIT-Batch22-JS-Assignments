@@ -2,7 +2,8 @@
 
 - **Student name:** Muhammad Hussain Khan Lodhi
 - **Student ID:** 829336
-- **Batch:** SMIT Batch 22
+- **Batch:** SMIT Batch 22-23
+- **Trainer:** Sir Jaffar Aman
 - **Course:** Web & Mobile App Development
 
 ## Run my work
