@@ -5,21 +5,14 @@
 - **Batch:** SMIT Batch 22
 - **Trainer:** Sir Jaffar Aman
 - **Course:** Web & Mobile App Development
-- **Topics:** Arrays, loops, flags, searching, filtering, and nested loops
 
-This assignment was prepared with AI assistance and reviewed against the assignment instructions.
+## Run my work
 
-## Questions
+Open the parent `index.html` of Assignment no.3 and click a question. Its folder page loads that question JavaScript and displays the output.
 
-All 20 marked questions are in their own folders. Each folder contains one HTML file and one JavaScript file. The optional bonus questions are not included in the 100 marks and are not part of the required 20 questions.
+## Screenshots
 
-## Run your work
-
-Open `index.html` and click a question. Each question page loads its matching JavaScript file and displays its output.
-
-## Output screenshots
-
-Five sample output screenshots are included in [`screenshots/`](screenshots/).
+![Question 01](screenshots/question-01.png) ![Question 04](screenshots/question-04.png) ![Question 07](screenshots/question-07.png) ![Question 19](screenshots/question-19.png) ![Question 20](screenshots/question-20.png)
 
 ## Submission
 
