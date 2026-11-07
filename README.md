@@ -1,4 +1,4 @@
-**Run my work**
+-**Run my work**
 Open the parent index.html of each Assignment folder and runs it in the browser. There will you see all the questions and thier work.
 All three assignments README files and screenshots are inside their respective folders.
 
